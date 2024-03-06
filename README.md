@@ -13,3 +13,7 @@ Run program
 ```
 python project.py
 ```
+
+1. Only Index finger should be raised to draw
+2. Only Index & Middle fingers should be raised to select/click
+3. Pose estimator only detects curls and only for left arm
