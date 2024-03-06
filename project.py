@@ -29,7 +29,7 @@ cam = cv2.VideoCapture(0)
 cam.set(3, 1280)
 cam.set(4, 720)
 
-handdetector = htm.HandDetector(min_detection_confidence=0.55)
+handdetector = htm.HandDetector(min_detection_confidence=0.65)
 posedetector = pem.PoseEstimator()
 
 count, dir = 0, 0
